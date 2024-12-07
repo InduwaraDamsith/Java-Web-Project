@@ -1,16 +1,17 @@
 <%-- 
-    Document   : aboutus
-    Created on : Dec 6, 2024, 8:30:48 PM
-    Author     : user
+    Document   : terms_conditions
+    Created on : Dec 7, 2024, 9:56:09 AM
+    Author     : nadee
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="CSS/aboutus.css" rel="stylesheet" type="text/css"/>
+    <link href="CSS/terms_conditions.css" rel="stylesheet" type="text/css"/>
     <link href='https://fonts.googleapis.com/css?family=Urbanist' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Plus Jakarta Sans' rel='stylesheet'>
     <title>Limitless Cinema</title>
@@ -27,11 +28,12 @@
                 <li><a href="movies.jsp">Movies</a></li>
                 <li><a href="aboutus.jsp">About</a></li>
                 <li><a href="#">Feedback</a></li>
+                
             </ul>
             <div class="search-container">
                 <input type="checkbox" id="search-toggle" class="search-toggle">
                 <label for="search-toggle" class="search-label">
-                     <img src="nav-footer images/container.png" alt="Search" class="search-icon"/>
+                    <img src="nav-footer images/container.png" alt="Search" class="search-icon"/>
                 </label>
                 <input type="text" class="search-input" placeholder="Search...">
             </div>
@@ -45,33 +47,51 @@
         </div>
     </nav>
     <!--end of nav bar-->
-    <section class="about-section">
-        <div class="content-container">
-            <h1>Limtless Cinemas</h1>
-            <p class="description">
-                Dedicated toward raising the bar in Sri Lanka’s cinema experience, Limitless aims to provide our patrons with all the flare of old-school movie theaters, coupled with state-of-the-art modernity and comfort, consistent with international standards.
-            </p>
-            <div class="video-container">
-                    <video width="750" height="400" controls>
-                        <source src="aboutus video link/Limitless video.mp4" type="video/mp4">
-                        Your browser does not support the <code>video</code> tag.
-                    </video>
-            </video>
-            </div>
-            <div class="vision-mission">
-                <div class="vision">
-                    <h2>Vision</h2>
-                    <p>To be Sri Lanka's first multi-sensory luxury entertainment company that challenges industry standards by providing creative solutions to customers from all walks of life.</p>
-                </div>
-                <div class="mission">
-                    <h2>Mission</h2>
-                    <p>To deliver a spectrum of diversified positive experiences to customers through a portfolio of brands driven by a supportive organizational culture, which aims to maximize the value for all stakeholders.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-</body>   
-    <!--footer-->
+   
+
+
+
+
+
+    <!-- Terms and Conditions Section -->
+  <main class="terms-section">
+    <h1>Terms and Conditions</h1>
+    <p>Welcome to Limitless Cinema! By accessing our website, you agree to comply with the following terms and conditions.</p>
+
+    <h2>1. Use of Our Website</h2>
+    <p>Our website is designed for personal use only. You agree not to misuse our services or violate any applicable laws.</p>
+
+    <h2>2. Booking and Ticketing</h2>
+    <p>Tickets purchased through our website are non-refundable unless otherwise stated. Please ensure the accuracy of your booking before confirming.</p>
+
+    <h2>3. Intellectual Property</h2>
+    <p>All content on this website, including images, logos, and text, is the property of Limitless Cinema. Unauthorized use is prohibited.</p>
+
+    <h2>4. Privacy Policy</h2>
+    <p>Your privacy is important to us. Please refer to our Privacy Policy for details on how we handle your personal information.</p>
+
+    <h2>5. Limitation of Liability</h2>
+    <p>Limitless Cinema is not responsible for any damages arising from the use of this website or its services, except as required by law.</p>
+
+    <h2>6. Changes to Terms</h2>
+    <p>We reserve the right to modify these terms at any time. Continued use of the website implies acceptance of the updated terms.</p>
+
+    <h2>7. Contact Information</h2>
+    <p>If you have any questions about these terms, please contact us at <a href="support@limitlesscinema.com">support@limitlesscinema.com</a>.</p>
+  </main>
+
+
+
+
+
+
+    
+</body>
+
+
+
+
+<!--footer-->
 
 
 
@@ -83,14 +103,12 @@
         </div>
         <div class="footer-icons">
             <a href="#" class="social-icon">
-                 <img src="nav-footer images/insta.png" alt="Instagram"/>
+                <img src="nav-footer images/insta.png" alt="Instagram"/>
             </a>
             <a href="#" class="social-icon">
-                
                 <img src="nav-footer images/youtube.png" alt="YouTube"/>
             </a>
             <a href="#" class="social-icon">
-               
                 <img src="nav-footer images/skype.png" alt="Skype"/>
             </a>
         </div>
@@ -98,7 +116,6 @@
 
     <!-- Footer Bottom Section -->
     <div class="footer-bottom">
-        
         <a href="terms_conditions.jsp" class="footer-link">Terms and Conditions</a>
         <a href="#" class="footer-link">Privacy Policy</a>
         <p>CopyRight&copy; 2024</p>
@@ -109,5 +126,4 @@
 
 
 </html>
-
 

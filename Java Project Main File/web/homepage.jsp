@@ -21,12 +21,12 @@
     <nav class="navbar">
         <div class="container">
             <div class="logo">
-               <a href="#">LIMITLESS CINEMA </a>
+               <a href="homepage.jsp">LIMITLESS CINEMA </a>
             </div>
             <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Movies</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="homepage.jsp">Home</a></li>
+                <li><a href="movies.jsp">Movies</a></li>
+                <li><a href="aboutus.jsp">About</a></li>
                 <li><a href="#">Feedback</a></li>
             </ul>
             <div class="search-container">
@@ -37,7 +37,7 @@
                 <input type="text" class="search-input" placeholder="Search...">
             </div>
             <div class="login-container">
-                <a href="login.html" class="login-link">
+                <a href="admin_login.jsp" class="login-link">
                     <img src="nav-footer images/login 1.png" alt="Login Icon" class="login-icon"/>
                     
                 </a>
@@ -191,7 +191,7 @@
         <h2>Experience the thrill of the <br>big screen like never <br>before.</h2>
     </div>
     <div class="streaming-button">
-        <a href="#" class="btn-red">Browse Movies</a>
+         <a href="movies.jsp" class="btn-red">Browse Movies</a>
     </div>
 </div>
 
@@ -209,7 +209,7 @@
     <!-- Footer Main Section -->
     <div class="footer-container">
         <div class="footer-left">
-            <a href="#" class="footer-brand">LIMITLESS CINEMA</a>
+            <a href="homepage.jsp" class="footer-brand">LIMITLESS CINEMA</a>
         </div>
         <div class="footer-icons">
             <a href="#" class="social-icon">
@@ -229,7 +229,7 @@
     <!-- Footer Bottom Section -->
     <div class="footer-bottom">
         
-        <a href="#" class="footer-link">Terms and Conditions</a>
+        <a href="terms_conditions.jsp" class="footer-link">Terms and Conditions</a>
         <a href="#" class="footer-link">Privacy Policy</a>
         <p>CopyRight&copy; 2024</p>
     </div>
