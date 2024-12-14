@@ -1,7 +1,7 @@
 <%-- 
-    Document   : movies
-    Created on : Dec 6, 2024, 6:56:45 PM
-    Author     : HP
+    Document   : cast
+    Created on : 9 Dec 2024, 02:03:15
+    Author     : arosha
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -10,7 +10,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="CSS/movies.css" rel="stylesheet" type="text/css"/>
+    <link href="CSS/cast.css" rel="stylesheet" type="text/css"/>
     <link href='https://fonts.googleapis.com/css?family=Urbanist' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Plus Jakarta Sans' rel='stylesheet'>
     <title>Limitless Cinema</title>
@@ -26,7 +26,7 @@
                 <li><a href="homepage.jsp">Home</a></li>
                 <li><a href="movies.jsp">Movies</a></li>
                 <li><a href="aboutus.jsp">About</a></li>
-                <li><a href="feedback.jsp">Feedback</a></li>
+                <li><a href="#">Feedback</a></li>
             </ul>
             <div class="search-container">
                 <input type="checkbox" id="search-toggle" class="search-toggle">
@@ -46,71 +46,68 @@
     </nav>
     <!--end of nav bar-->
     
-    <br><br><br>
-    <div class="row">
-        <div class="column">
-            <a href="#"><img class = "Fighter-Street" src = "Movie images/Fighter street.jpg"></a>
-            <P>FIGHTER STREET 1994</P>
-        </div>
-        <div class="column">
-            <a href="#"><img class = "Dark-Knight" src = "Movie images/Dark Knight.jpg"></a>
-            <p>DARK KNIGHT 2008</p>
-        </div>
-        <div class="column">
-            <a href="#"><img class = "Amaran" src = "Movie images/Amaran.jpg"></a>
-            <p>AMARAN 2024</p>
-        </div>
-        <div class="column">
-            <a href="#"><img class = "XF" src = "Movie images/X files.jpg"></a>
-            <p>X FILES 1993</p>
+          <!-- Main container --->
+    <div class="container2">
+        <!-- Background overlay -->
+       
+        <img class="background-image2" src="cast images/1wild.jpg" alt="The Wild Robot Background">
+        
+        <!-- Content section -->
+        <div class="content2">
+            <h1 class="title2">THE WILD ROBOT</h1>
+            <div class="subtitle2">NOW SHOWING AT LIMITLESS</div>
+            <div class="details2">
+                <span class="duration2">1 HR 42 MIN</span>
+                <span class="rating2">IMDB RATING <span class="rating-star">★</span> 0/10</span>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="column">
-            <a href="#"><img class = "se7en" src = "Movie images/Se7en.jpg"></a>
-            <P>SE7EN 1995</P>
+          
+      <!-- Main container with fixed dimension -->
+    <div class="container1">
+        <!-- Left section: Story Line -->
+        <div class="storyline">
+            <h2>Story Line</h2>
+            <p>
+                After a shipwreck, an intelligent robot called Roz is stranded on an uninhabited island. To survive 
+                the harsh environment, Roz bonds with the island's animals and cares for an orphaned baby goose.
+            </p>
+            <div class="genres">
+                <p><strong>Genres:</strong></p>
+            </div>
+            <!-- Button to buy tickets -->
+            <div class="buy-ticket">
+               <a href="tickets.jsp" class="button-link">
+        <button>Buy Tickets</button>
+    </a>
+            </div>
         </div>
-        <div class="column">
-            <a href="#"><img class = "GoodFellas" src = "Movie images/Goodfellas.jpg"></a>
-            <P>GOODFELLAS 1995</P>
-        </div>
-        <div class="column">
-            <a href="#"><img class = "Garfield" src = "Movie images/Garfield.jpg"></a>
-            <P>GARFIELD 2024</P>
-        </div>
-        <div class="column">
-            <a href="#"><img class = "Casablanca" src = "Movie images/Casablanca.jpg"></a>
-            <P>CASABLANCA 1942</P>
-        </div>
-        <div class="column">
-            <a href="#"><img class = "Top-Gun" src = "Movie images/Top Gun 2022.jpg"></a>
-            <P>TOP GUN MAVERICK 2022</P>
-        </div>
-        <div class="column">
-            <a href="#"><img class = "Joker" src = "Movie images/Joker 2024.jpg"></a>
-            <P>JOKER FOLIE 'A DEUX 2024</P>
-        </div>
-        <div class="column">
-            <a href="#"><img class = "Passport" src = "Movie images/Passport.jpg"></a>
-            <P>PASSPORT 2024</P>
-        </div>
-        <div class="column">
-            <a href="#"><img class = "Spider-man" src = "Movie images/Spider man 2023.jpg"></a>
-            <P>SPIDER MAN:ACROSS THE SPIDER VERSE 2023</P>
+        <!-- Right section: Cast and Team -->
+        <div class="cast-team">
+            <!-- Cast details -->
+            <div class="cast">
+                <h2>Cast</h2>
+                <ul>
+                    <li><strong>Actor:</strong> Lupita Nyong'o - <em>Roz / Rummage (voice)</em></li>
+                    <li><strong>Actor:</strong> Pedro Pascal - <em>Fink (voice)</em></li>
+                    <li><strong>Actor:</strong> Kit Connor - <em>Brightbill (voice)</em></li>
+                </ul>
+            </div>
+            <!-- Team details -->
+            <div class="team">
+                <h2>Team</h2>
+                <p><strong>Directed by:</strong> Chris Sanders</p>
+                <p><strong>Produced by:</strong> Dean DeBlois</p>
+                <p><strong>Written by:</strong> Chris Sanders, Peter Brown</p>
+                <p><strong>Music by:</strong> Kris Bowers</p>
+            </div>
         </div>
     </div>
-    <div class="streaming-section">
-    <div class="streaming-content">
-        <h2>Experience the thrill of the <br>big screen like never <br>before.</h2>
-    </div>
-    <div class="streaming-button">
-        <a href="movies.jsp" class="btn-red">Browse Movies</a>
-    </div>
-</div>
+      
+      
 
-    <script src="JS/homepage.js" type="text/javascript"></script>
-</body>
-
+ 
+    
 <!--footer-->
 
 

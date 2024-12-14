@@ -27,7 +27,7 @@
                 <li><a href="homepage.jsp">Home</a></li>
                 <li><a href="movies.jsp">Movies</a></li>
                 <li><a href="aboutus.jsp">About</a></li>
-                <li><a href="#">Feedback</a></li>
+                <li><a href="feedback.jsp">Feedback</a></li>
             </ul>
             <div class="search-container">
                 <input type="checkbox" id="search-toggle" class="search-toggle">
