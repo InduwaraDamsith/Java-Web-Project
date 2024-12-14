@@ -46,11 +46,11 @@
     </nav>
     <!--end of nav bar-->
     
-          <!-- Main container ->
+          <!-- Main container --->
     <div class="container2">
         <!-- Background overlay -->
        
-        <img class="background-image2" src="cast images/wild.jpg" alt="The Wild Robot Background">
+        <img class="background-image2" src="cast images/1wild.jpg" alt="The Wild Robot Background">
         
         <!-- Content section -->
         <div class="content2">

@@ -74,7 +74,7 @@ body, ul, li {
     color: rgba(255, 255, 255, 0.7); /* Slightly faded color */
     margin-left: 10px; /* Space between the text and the bar */
     font-size: 1.5rem; /* Matches the text size */
-    line-height: 1; /* Ensures alignment with the texts */
+    line-height: 1; /* Ensures alignment with the textss */
     vertical-align: top; /* Aligns the bar to the middle of the text */
     display: inline-block; /* Ensures proper rendering as inline */
   } 
