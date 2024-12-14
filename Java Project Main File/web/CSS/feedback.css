@@ -182,6 +182,8 @@ body, ul, li {
       color: white;
       text-align: center;
       padding: 1rem;
+      display: flex;
+      
     }
     .footer {
       background-color: #000; /* Dark background */
