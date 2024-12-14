@@ -26,7 +26,7 @@ body, ul, li {
     min-height: 100%; /* Ensure the body is at least as tall as the viewport */
     background-color: #000;
     font-family: Arial, sans-serif;
-    color: white; /* Ensures text is visible on a black background */
+    color: white; /* Ensures text is visible on black background */
     margin: 0; /* Removes default browser margin */
     padding: 0; /* Removes default browser padding */
     

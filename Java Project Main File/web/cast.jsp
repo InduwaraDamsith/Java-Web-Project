@@ -63,7 +63,7 @@
         </div>
     </div>
           
-      <!-- Main container with fixed dimensions -->
+      <!-- Main container with fixed dimension -->
     <div class="container1">
         <!-- Left section: Story Line -->
         <div class="storyline">
